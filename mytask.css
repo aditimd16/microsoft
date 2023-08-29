@@ -1,0 +1,550 @@
+body{
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+    
+
+margin: 0px;
+padding: 0px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    height: 31px;
+}
+#navbar #left{
+    display: flex;
+    margin-left: 50px;
+}
+#navbar div ul{
+    display: flex;
+    list-style-type: none;
+}
+#navbar div li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+#navbar div li a:hover{
+    border-bottom: 2px solid black;
+}
+#navbar #left #lhs{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 28px;
+}
+#navbar #right #rhs{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 28px;
+    margin-right: 112px;
+}
+#navbar #left img{
+    width: 17%;
+    height: 27px;
+    margin: 10px;
+}
+#navbar #right ul li a i{
+    padding: 8px;
+}
+
+#micro img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#micro{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#micro #banner{
+    background-image: url(./images/365.avif);
+    background-size: cover ;
+    height: 350px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+#micro #banner #down{
+    display: flex;
+    gap: 50px;
+    margin-top: 5px;
+}
+#micro #banner h1{
+    font-size: 41px;
+    font-weight: 600;
+}
+#micro #banner p{
+    font-size: 16px;
+    
+}
+#micro #banner #down a{
+    color: black;
+    text-decoration: none;
+}
+#micro #banner #down p:hover{
+    border-bottom: 2px solid black;
+    
+    
+}
+#micro #banner #down{
+    padding-top: 23px;
+}
+#micro #banner #down button{
+    width: 11%;
+    height: 42px;
+    border: none;
+    background-color: rgb(0,103,184);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+#micro #banner #down button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+#micro #banner #down button:hover{
+    background-color: rgb(16, 66, 165);
+}
+#ir{
+    padding-left: 2px;
+    padding-top: 2px;
+    font-size: 15px;
+
+}
+#micro #icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+    padding-bottom: 30px;
+    font-size: 13px;
+    gap: 20px;
+}
+.fa.fa-pause-circle-o:hover{
+    font-size: 20px;
+}
+.fa.fa-angle-left:hover{
+    font-size: 17px;
+}
+.fa.fa-angle-right:hover{
+    font-size: 17px;
+}
+.fa.fa-circle-o:hover{
+    font-size: 17px;
+}
+#micro #exp{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 120px;
+    color: rgb(82,103,184);
+}
+#micro #exp #d1 img{
+    
+    width: 30%;
+    height: 53px;
+    padding-left: 55px;
+}
+#micro #exp #d2 img{
+    
+    width: 50%;
+    height: 50px;
+    padding-left: 31px;
+}
+#micro #exp #d3 img{
+   
+    width: 30%;
+    height: 50px;
+    padding-left: 66px;
+}
+#micro #exp #d4 img{
+    width: 50%;
+    height: 50px;
+    padding-left: 26px;
+}
+#micro #exp div p a{
+    color: rgb(82,103,184);
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+#products #prod{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+#products #prod img{
+    width: 100%;
+    height: 189px;
+    margin-top: 68px;
+    margin-right: -35px;
+}    
+#products #prod h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+#products #prod p{
+    font-size: 16px;
+}
+#products #prod p a{
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(82,103,184);
+    font-weight: 500;
+}
+#products #prod p a:hover{
+    border-bottom: 2px solid rgb(82,103,184);
+}
+.fa.fa-angle-right{
+    color: rgb(82,103,184);
+}
+#design div img{
+    width: 90%;
+    height: 490px;
+    margin-top: 95px;
+    margin-left: 77px;
+}
+#design div #cont{
+    margin-left: 218px;
+    margin-top: -353px;
+    color: white;
+}
+#design div #cont h1{
+    font-size: 40px;
+}
+#design div #cont p{
+    font-size: 18px;
+}
+#design div #cont button{
+    width: 15%;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(0,103,184);
+}
+#design div #cont button:hover{
+    background-color: rgb(16, 66, 165);
+}
+#design div #cont button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#business #bizz{
+    margin-top: 173px;
+    margin-left: 122px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#business #bizzu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#business #bizzu div p{
+   font-size: 18px;
+}
+#business #bizzu div p a{
+    color: rgb(82,103,184);
+    text-decoration: none;
+}
+#business #bizzu div p a:hover{
+    border-bottom: 2px solid rgb(82,103,184);
+}
+#business #bizzu div h1{
+    font-size: 30px;
+}
+#social #sm{
+    font-size: 15px;
+    font-size: 18px;
+    margin-left: 131px;
+    margin-top: 96px;
+    color: rgb(140,130,127);
+}
+.fa.fa-facebook{
+    color: black;
+    font-size: 24px;
+    padding-left: 34px;
+    
+}
+.fa.fa-twitter{
+    color: black;
+    font-size: 24px;
+    padding-left: 34px;
+}
+.fa.fa-youtube-play{
+    color: black;
+    font-size: 24px;
+    padding-left: 34px;
+}
+#social #btn{
+    display: flex;
+    justify-content: right;
+}
+#social #btn button{
+    width: 12%;
+    height: 42px;
+    background-color: lightgrey;
+    border: none;
+    margin: 10px
+}
+#social #btn button a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.fa.fa-arrow-up{
+    padding-right: 20px;
+}
+#social #btn button:hover{
+    background-color: white;
+    border-radius: 2px solid gray;
+    box-shadow: 0px 2px 4px gray;
+}
+#footer{
+    background-color: lightgray;
+    margin-top: 60px;
+}
+#footer #col{
+    display: flex;
+    justify-content: center;
+    color: rgb(97,103,122);
+    gap: 90px;
+    font-size: 15px;
+}
+#footer #col #c1 p a{
+    color: rgb(97,103,122);
+    text-decoration: none;
+}
+#footer #col #c2 p a{
+    color: rgb(97,103,122);
+    text-decoration: none;
+}
+#footer #col #c3 p a{
+    color: rgb(97,103,122);
+    text-decoration: none;
+}
+#footer #col #c4 p a{
+    color: rgb(97,103,122);
+    text-decoration: none;
+}
+#footer #col #c5 p a{
+    color: rgb(97,103,122);
+    text-decoration: none;
+}
+#footer #col #c6 p a{
+    color: rgb(97,103,122);
+    text-decoration: none;
+}
+#footer #col #c1 p a:hover{
+    border-bottom: 2px solid rgb(97,103,122);
+}
+#footer #col #c2 p a:hover{
+    border-bottom: 2px solid rgb(97,103,122);
+}
+#footer #col #c3 p a:hover{
+    border-bottom: 2px solid rgb(97,103,122);
+}
+#footer #col #c4 p a:hover{
+    border-bottom: 2px solid rgb(97,103,122);
+}
+#footer #col #c5 p a:hover{
+    border-bottom: 2px solid rgb(97,103,122);
+}
+#footer #col #c6 p a:hover{
+    border-bottom: 2px solid rgb(97,103,122);
+}
+
+
+#footer #lnav{
+    display: flex;
+    justify-content: space-between;
+}
+#footer #lnav #left{
+    display: flex;
+    margin-left: 97px;
+    gap: 20px;
+}
+#footer #lnav #right{
+    display: flex;
+    margin-right: 60px;
+    gap: 20px;
+}
+#footer #lnav #left p a{
+    color: rgb(97,103,122);
+    text-decoration: none;
+}
+#footer #lnav #right p a{
+    color: rgb(97,103,122);
+    text-decoration: none;
+}
+#footer #lnav #left p a:hover{
+    border-bottom: 2px solid rgb(97,103,122);
+}
+#footer #lnav #right p a:hover{
+    border-bottom: 2px solid rgb(97,103,122);
+}
+.fa.fa-globe{
+    padding-right: 5px;
+}
+.fa.fa-times{
+    padding-right: 5px;
+}
+
+
+/* ---mobile version--- */
+
+@media(max-width:600px){
+    body{
+        background-size: 200%;
+        background-position-x: center;
+    }
+    #navbar #left li{
+        display: none;
+    }
+    #navbar #right li{
+        display: none;   
+    }
+    #navbar #left img{
+        width: 114%;
+    height: 30px;
+    margin-left: 67px;
+    }
+    #micro{
+        margin-top: 25px;
+        
+    }
+    #micro #banner{
+        background-image: url(./images/mib.jpg);
+        background-size: cover;
+        width: 60%;
+    height: 159px;
+    }
+    #micro #banner h1{
+        margin-top: 195px;
+        margin-left: -107px;
+        font-size: 26px;
+    }
+    #micro #banner p{
+        font-size: 17px;
+        margin-left: -105px;
+    }
+    #micro #down{
+        display: inline-block;
+        
+    }
+    #micro #banner #down button{
+        
+        width: 56%;
+        height: 40px;
+        margin-left: -110px;
+        margin-top: -20px;
+    }
+    #micro #banner #down p{
+        font-size: 21px;
+    margin-left: -181px;
+    margin-top: 39px;
+    }
+    #micro #banner #down p:hover{
+        border-bottom: 2px solid black;
+    }
+    #micro #icons{
+        margin-top: 297px;
+    }
+    
+    #micro #exp{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 71px;
+    }
+    #micro #exp #d1 p{
+        margin-left: -22px;
+    }
+    #micro #exp #d3 p{
+        margin-left: -22px;
+    }
+    #micro #exp #d4 img{
+        width: 31%;
+        height: 60px;
+        margin-left: 40px;
+    }
+    #micro #exp #d4 p{
+        margin-left: 34px;
+    }
+    #products #prod{
+        display: inline-block;
+    }
+    #products #prod img{
+        width: 124%;
+    margin-left: 4px;
+    }
+    #products #prod h1{
+        font-size: 25px;
+        margin-left: 4px;
+    }
+    #products #prod p{
+        margin-left: 4px;
+    }
+    #design{
+        display: inline-block;
+    }
+    #design #d1 img{
+        width: 98%;
+    height: 190px;
+    margin-left: 3px;
+    margin-top: 26px;
+    }
+    #design #d1 #cont h1{
+        color: black;
+        font-size: 33px;
+        margin-top: 350px;
+        margin-left: -204px;
+    }
+    #design #d1 #cont p{
+        color: black;
+        margin-left: -213px;
+    }
+    #design #d1 #cont button{
+        
+        width: 98%;
+        height: 40px;
+        margin-left: -211px;
+        margin-top: 12px;
+    }
+    #business #bizz{
+        display: inline-block;
+        margin-left: 8px;
+    }
+    #business #bizzu{
+        display: inline-block;
+        margin-left: 8px;
+    }
+    #business #bizzu div img{
+        width: 374px;
+    }
+    #social{
+        display: inline-block
+    }
+    #social #sm{
+        margin-left: 8px;
+        font-size: 18px;
+    }
+
+    #social #btn button{
+        width: 49%;
+    height: 30px;
+    }
+    #footer #col{
+        display: inline-block;
+        margin-left: 8px;
+    }
+    #footer #lnav{
+        display: none;
+    }
+    
